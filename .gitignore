@@ -1,0 +1,41 @@
+# Arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Diretórios e arquivos do ambiente virtual
+env/
+venv/
+ENV/
+.venv/
+
+# Arquivos de configuração do editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de log
+*.log
+
+# Arquivo de variáveis de ambiente com chaves secretas
+.env
+.env.* 
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Pastas e arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Diretórios específicos de dados que podem ser gerados (se houver)
+dados/
+outputs/
+
+# Pip cache
+pip-log.txt
+pip-delete-this-directory.txt
